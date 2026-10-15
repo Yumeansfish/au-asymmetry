@@ -1,0 +1,9 @@
+# Set model to the fine_tuned_model ID returned by the fine-tuning job.
+model: ""
+queries_path: data/inference/queries.jsonl
+output_dir: outputs/inference/gpt
+prompt: utility
+timeout: 120.0
+generation:
+  max_completion_tokens: 512
+  temperature: 0.0

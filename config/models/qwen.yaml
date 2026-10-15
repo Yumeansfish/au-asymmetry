@@ -1,0 +1,4 @@
+base_model: Qwen/Qwen2.5-7B-Instruct
+
+chat_template:
+  support_system_role: true

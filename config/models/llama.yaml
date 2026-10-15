@@ -1,0 +1,4 @@
+base_model: meta-llama/Meta-Llama-3-8B-Instruct
+
+chat_template:
+  support_system_role: true

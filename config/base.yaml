@@ -1,0 +1,25 @@
+lora:
+  r: 32
+  alpha: 64
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+training:
+  seed: 42
+  batch_size: 8
+  grad_accum: 2
+  gradient_checkpointing: true
+  optim: "adamw_torch"
+  warmup_ratio: 0.05
+  save_total_limit: 40
+  max_steps: 4000
+  learning_rate: 2.0e-5
+  max_length: 512
+  save_steps: 100

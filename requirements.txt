@@ -1,0 +1,17 @@
+# Python 3.12.3 and CUDA 12.8.
+--extra-index-url https://download.pytorch.org/whl/cu128
+numpy>=1.24,<2.0
+torch==2.10.0+cu128
+transformers>=4.53.2,<4.55
+datasets>=3.0,<4.0
+pyarrow>=15.0,<21.0
+peft>=0.15,<0.18
+trl==0.20.0
+accelerate>=1.4,<2.0
+safetensors>=0.4
+sentencepiece>=0.2
+protobuf>=4.25,<5.0
+tensorboard
+pyyaml>=6.0
+openai>=1.58,<3.0
+python-dotenv>=1.0,<2.0

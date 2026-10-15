@@ -1,0 +1,6 @@
+base_model: google/gemma-7b-it
+
+chat_template:
+  support_system_role: false
+  system_prefix: "Instructions: "
+  system_suffix: "\n\n"

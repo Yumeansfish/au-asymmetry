@@ -1,0 +1,9 @@
+model: ""
+support_path: data/icl/support.jsonl
+queries_path: data/icl/queries.jsonl
+output_dir: outputs/icl
+prompt: icl
+timeout: 120.0
+generation:
+  max_completion_tokens: 512
+  extra_body: {}

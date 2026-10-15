@@ -1,0 +1,10 @@
+model: llama
+adapter_path: ""
+queries_path: data/inference/queries.jsonl
+output_dir: outputs/inference/local
+prompt: utility
+batch_size: 8
+seed: 42
+generation:
+  max_new_tokens: 512
+  do_sample: false
