@@ -2,7 +2,7 @@
 
 This is the official implementation of the paper accepted at **NeurIPS 2026**:
 
-> **[LLM Alignment–Utility Asymmetry under Semantic-Preserving Transformations](https://arxiv.org/abs/2609.32717)**  
+> **[LLM Alignment–Utility Asymmetry under Semantic-Preserving Transformations](https://neurips.cc/virtual/2026/loc/sydney/poster/149683)**  
 > Mohan Li*, Chengyu Yu*, Francesco Sovrano, Marc Langheinrich, Martin Gjoreski
 
 ---
